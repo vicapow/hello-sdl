@@ -7,6 +7,7 @@ Clonet the repo and install submodules, run `git submodule update --init --recur
 # To compile the WebAssembly version:
 
 ````
+mkdir build
 cd build
 cmake ..
 make
@@ -17,6 +18,7 @@ to run: `python -m SimpleHTTPServer` then open `http://localhost:8000`
 # To compile natively (only tests on OS X)
 
 ````
+mkdir build
 cd build
 cmake -DWASM=OFF ..
 make
