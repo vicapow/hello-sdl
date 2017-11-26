@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body, html{
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+<canvas width="400" height="400"></canvas>
+<script>
+const canvas = document.getElementsByTagName('canvas')[0];
+var Module = { canvas  };
+function updateSize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
+window.onresize = () => updateSize();
+updateSize();
+</script>
+<script src="main.js"></script>
+</html>
