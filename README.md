@@ -24,3 +24,5 @@ make
 
 to run: `./main`
 
+
+Example tiger image by Shane Gorski (https://www.flickr.com/photos/shanegorski/2515009456/in/photostream/)
